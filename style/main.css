@@ -19,6 +19,12 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+.button {
+    height: 50px;
+    width: 100px;
+    background-color: #666;
+    border-radius: 5px
+}
 
 
 /* Предустановки */
@@ -69,6 +75,11 @@ header {
 main {
     display: flex;
     flex: 1 0 auto;
+    background-image:
+        (/yakushev/images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 }
 main > div.container {
     flex: 1 0 auto;
@@ -84,4 +95,10 @@ aside {
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+    header a:hover,
+        footer a:hover{
+        color:#fff;
+        text-decoration: underline
+    }
+
 }
