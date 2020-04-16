@@ -67,6 +67,36 @@ img {
 /*Шапка сайта*/
 header {
 flex: 0 0 auto;
+    height: 1030px;
+    background-color: #000000;
+    font-size: 0.9em;
+}
+header > div.container {
+    height: 100%;
+    align-items: flex-end;
+}
+header ul {
+    display: flex;
+    padding-bottom: 20px;
+}
+header li {
+    color: #ffff00;
+}
+header li a{
+    padding: 50px 10px 10px 10px;
+    margin-right: 10px;
+    color: #ffff00;
+    text-decoration: none;
+}
+.header-icon {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.header-icon img {
+    padding-right: 20px;
+}
+
 }
 
 
@@ -76,6 +106,18 @@ flex: 0 0 auto;
 }
 .advantages {
     flex: 1 0 auto;
+    padding: 55px 0 85px 0;
+    background-color: #000000;
+    color: #ffff00;
+}
+.advantages div {
+    justify-content: space-around;
+}
+.advantages .block-item {
+    max-width: 200px;
+}
+.advantages img {
+    padding: 30px 0;
 }
 .content {
     flex: 1 0 auto;
@@ -85,5 +127,31 @@ flex: 0 0 auto;
 /*Подвал сайта*/
 footer {
     flex: 0 0 auto;
+    padding: 85px 0 55px 0;
+    background-color: #ffffff;
+    color: #ffff00;
 }
+.copyright {
+    color: ffffff;
+    padding-top: 100px;
+}
+footer h3 {
+    margin: 20px 20px 40px 0;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffff00;
+}
+footer h3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer li {
+    margin-bottom: 20px;
+}
+footer li a {
+    color: #ffff00;
+    text-decoration: none;
+}
+
 
